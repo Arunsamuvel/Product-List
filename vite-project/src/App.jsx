@@ -1,12 +1,13 @@
-import Header from "../Component/Heading/Header";
-import "./App.css";
+import Header from "./Component/Heading/Header";
+import Pricecart from "./Component/Container/PriceCart";
 
-function App() {
+const App = () => {
   return (
-    <>
+    <div>
       <Header />
-    </>
+      <Pricecart />
+    </div>
   );
-}
+};
 
 export default App;
